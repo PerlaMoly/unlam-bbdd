@@ -27,7 +27,7 @@ values
 (022,'Sergio Agüero','Participante'),
 (023,'Gonzalo Higuaín','Participante')
 
-/* */
+/* Croacia*/
 insert into persona(cod_persona,nombre,tipo)
 values
 (default,'Subasic','Participante'),
@@ -55,7 +55,131 @@ values
 (default,'Marko Pjaca','Participante'),
 (default,'Ante Rebic','Participante');
 
+insert into persona(cod_persona,nombre,tipo)
+values
+(default,'Joel Aguilar','Autoridad'),
+(default,'Ricardo Montero','Autoridad'),
+(default,'John Pitti','Autoridad'),
+(default,'Cesar Ramos','Autoridad'),
+(default,'Julio Bascuñán','Autoridad'),
+(default,'Enrique Cáceres','Autoridad'),
+(default,'Andres Cunha ','Autoridad'),
+(default,'Néstor Pitana','Autoridad'),
+(default,'Wilmar Rondán','Autoridad'),
+(default,'Juan Carlos Mora','Autoridad'),
+(default,'Marvin Torrentera','Autoridad'),
+(default,'Gabriel Victoria','Autoridad'),
+(default,'Juan Zumba','Autoridad'),
+(default,'Carlos Astroza','Autoridad'),
+(default,'Juan Pablo Belatti','Autoridad'),
+(default,'Eduardo Cardozo','Autoridad'),
+(default,'Cristian de la Cruz','Autoridad'),
+(default,'Hernán Maidana','Autoridad'),
+(default,'Christian  Schiemann','Autoridad'),
+(default,'Nicolás Tarán','Autoridad'),
+(default,'Juan Zorrilla' ,'Autoridad');
 
-
+-- Consultas básicas 
 select * from persona;
+select * from participante;
+
+/* participante */
+insert into participante (cod_participante, fecha_nac, fecha_debut, tipo) values 
+
+(001,'19870624','20041016','Jugador'), 
+(002,'19870624','20041016','Jugador'),
+(003,'19870624','20041016','Jugador'), 
+(004,'19870624','20041016','Jugador'), 
+(005,'19870624','20041016','Jugador'), 
+(006,'19800624','20041016','Jugador'), 
+(007,'19800624','20041016','Jugador'), 
+(008,'19800624','20041016','Jugador'), 
+(009,'19800624','20041016','Jugador'), 
+(010,'19800624','20041016','Jugador'), 
+(011,'19800624','20041016','Jugador'), 
+(012,'19800624','20041016','Jugador'), 
+(013,'19800624','20041016','Jugador'),
+(014,'19800624','20041016','Jugador'), 
+(015,'19800624','20041016','Jugador'), 
+(016,'19800624','20041016','Jugador'), 
+(017,'19800624','20081016','Jugador'), 
+(018,'19800624','20081016','Jugador'), 
+(019,'19800624','20081016','Jugador'), 
+(020,'19800624','20081016','Jugador'), 
+(021,'19800624','20081016','Jugador'), 
+(022,'19800624','20081016','Jugador'), 
+(023,'19800624','20081016','Jugador'), 
+(024,'19870624','20081016','Jugador'), 
+(025,'19870624','20081016','Jugador'), 
+(026,'19870624','20081016','Jugador'), 
+(027,'19870624','20081016','Jugador'), 
+(028,'19870624','20081016','Jugador'), 
+(029,'19870624','20081016','Jugador'), 
+(030,'19870624','20081016','Jugador'), 
+(031,'19870624','20081016','Jugador'), 
+(032,'19870624','20081016','Jugador'), 
+(033,'19870624','20081016','Jugador'), 
+(034,'19870624','20081016','Jugador'), 
+(035,'19870624','20081016','Jugador'), 
+(036,'19870624','20081016','Jugador'), 
+(037,'19870624','20081016','Jugador'), 
+(038,'19870624','20081016','Jugador'), 
+(039,'19870624','20081016','Jugador'), 
+(040,'19870624','20081016','Jugador'), 
+(041,'19870624','20081016','Jugador'), 
+(042,'19870624','20081016','Jugador'),
+(043,'19870624','20081016','Jugador'), 
+(044,'19870624','20081016','Jugador'),
+(045,'19870624','20041016','Jugador'), 
+(046,'19870624','20041016','Jugador'),
+(047,'19870624','20041016','Jugador'),
+(048,'19870624','20041016','Jugador'),
+(049,'19870624','20041016','Jugador'),
+(050,'19870624','20081016','Jugador'), 
+(051,'19870624','20081016','Jugador'), 
+(052,'19870624','20081016','Jugador'), 
+(053,'19870624','20081016','Jugador'), 
+(054,'19870624','20081016','Jugador'), 
+(055,'19870624','20081016','Jugador'), 
+(056,'19870624','20081016','Jugador'), 
+(057,'19870624','20081016','Jugador'), 
+(058,'19870624','20081016','Jugador'), 
+(059,'19870624','20081016','Jugador'), 
+(060,'19870624','20081016','Jugador'), 
+(061,'19870624','20081016','Jugador'), 
+(062,'19870624','20081016','Jugador'), 
+(063,'19870624','20081016','Jugador'), 
+(064,'19870624','20081016','Jugador'), 
+(065,'19870624','20081016','Jugador'),
+(066,'19870624','20081016','Jugador'), 
+(067,'19870624','20081016','Jugador'),
+(068,'19870624','20041016','Jugador'), 
+(069,'19870624','20041016','Jugador'),
+(070,'19870624','20041016','Jugador'),
+(071,'19870624','20041016','Jugador');
+
+select * from autoridad;
+insert into tipo (cod_tipo, descripcion) values (001,'Central'),(002,'Auxiliar');
+insert into autoridad (cod_autoridad,cod_tipo) values 
+(001,001),
+(002,001),
+(003,001),
+(004,001),
+(005,001),
+(006,001),
+(007,001),
+(008,001),
+(009,001),
+(010,002),
+(011,002),
+(012,002),
+(013,002),
+(014,002),
+(015,002),
+(016,002),
+(017,002),
+(018,002),
+(019,002),
+(020,002),
+(021,002);
 
